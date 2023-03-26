@@ -1,0 +1,24 @@
+GET http://localhost:5000/tasks
+
+
+###
+
+
+POST http://localhost:5000/task/new
+Content-Type: application/json
+
+{
+    "text": "Get honey at store"
+}
+
+
+###
+
+
+DELETE http://localhost:5000/task/delete/6420b8b781f1dd46da424400
+
+
+###
+
+
+PUT http://localhost:5000/task/complete/6420b7c07f0f7f6ec6491f69
